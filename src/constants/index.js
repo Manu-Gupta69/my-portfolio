@@ -114,20 +114,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Freelancer",
-    company_name: "NMMUN",
-    icon: nmmun,
-    iconBg: "#383E56",
-    date: "June 2021 - October 2021",
-    points: [
-      "Developed and implemented a full-fledged web application for event registration using the MERN (MongoDB,Express.js, React.js, Node.js) stack",
-      "Created a comprehensive dashboard for administrators to access and analyze all registration-related data,enhancing the application’s usability and efficiency",
-      "Integrated Razorpay as the payment gateway, ensuring secure and seamless transactions for users during the registration process",
-      "Implemented custom authentication using Passport.js, providing a robust and reliable authentication system",
-    ],
-  },
-  {
-    title: "FrontEnd Developer",
+    title: "Solution Engineer",
     company_name: "Deqode",
     icon: deqode,
     iconBg: "#383E56",
@@ -145,6 +132,20 @@ const experiences = [
       " Collaborated with cross-functional teams, contributing to architectural discussions and enhancing the overall user experience",
     ],
   },
+  {
+    title: "Freelancer",
+    company_name: "NMMUN",
+    icon: nmmun,
+    iconBg: "#383E56",
+    date: "June 2021 - October 2021",
+    points: [
+      "Developed and implemented a full-fledged web application for event registration using the MERN (MongoDB,Express.js, React.js, Node.js) stack",
+      "Created a comprehensive dashboard for administrators to access and analyze all registration-related data,enhancing the application’s usability and efficiency",
+      "Integrated Razorpay as the payment gateway, ensuring secure and seamless transactions for users during the registration process",
+      "Implemented custom authentication using Passport.js, providing a robust and reliable authentication system",
+    ],
+  },
+
   // {
   //   title: "React Native Developer",
   //   company_name: "Tesla",
