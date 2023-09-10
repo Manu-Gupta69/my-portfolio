@@ -29,6 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import deqode from "./company/deqode.png";
+import nmmun from "./company/nmmun.png";
+import soundStream from "./sound-stream.png";
+import bicepsJim from "./biceps-jim.png";
+import gameSpace from "./game-space.png";
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  deqode,
+  nmmun,
+  soundStream,
+  bicepsJim,
+  gameSpace,
 };

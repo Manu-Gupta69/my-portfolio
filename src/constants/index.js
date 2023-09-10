@@ -15,14 +15,12 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  deqode,
+  nmmun,
+  soundStream,
+  bicepsJim,
+  gameSpace,
 } from "../assets";
 
 export const navLinks = [
@@ -116,22 +114,22 @@ const technologies = [
 
 const experiences = [
   {
-    title: "FullStack Developer",
+    title: "Freelancer",
     company_name: "NMMUN",
-    icon: starbucks,
+    icon: nmmun,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2021 - October 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and implemented a full-fledged web application for event registration using the MERN (MongoDB,Express.js, React.js, Node.js) stack",
+      "Created a comprehensive dashboard for administrators to access and analyze all registration-related data,enhancing the application’s usability and efficiency",
+      "Integrated Razorpay as the payment gateway, ensuring secure and seamless transactions for users during the registration process",
+      "Implemented custom authentication using Passport.js, providing a robust and reliable authentication system",
     ],
   },
   {
     title: "FrontEnd Developer",
     company_name: "Deqode",
-    icon: starbucks,
+    icon: deqode,
     iconBg: "#383E56",
     date: "November 2021 - September 2023",
     points: [
@@ -188,45 +186,18 @@ const experiences = [
   // }
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sound Stream",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web application that redefines how music enthusiasts connect with their favorite tunes.A curated collection of tracks from various genres, showcasing the potential of a full-fledged streaming platform. where music enthusiasts can dive into an extensive library, curate playlists, and enjoy uninterrupted music streaming",
     tags: [
       {
-        name: "react",
+        name: "next",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "supabase",
         color: "green-text-gradient",
       },
       {
@@ -234,13 +205,40 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: soundStream,
+    source_code_link: "https://github.com/Manu-Gupta69/sound-stream",
+    live_link: "https://sound-stream-manugupta.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Game Space",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "I've developed a web-based ecommerce platform specifically crafted for the buying and selling of Steam accounts. Our platform provides a safe and efficient marketplace for gamers to trade their Steam accounts. Users can easily browse listings, communicate with sellers, and make transactions with confidence.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ssr",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gameSpace,
+    source_code_link: "https://github.com/Manu-Gupta69/steamshop",
+    live_link: "https://steam-shop.onrender.com/home",
+  },
+  {
+    name: "Biceps Jim",
+    description:
+      "I have developed a web-based gym application that allows users to easily search for and access multiple workout guidance resources. This application provides a user-friendly interface for discovering exercises, and training tips, making it convenient for fitness enthusiasts to find the guidance they need to achieve their fitness goals.",
     tags: [
       {
         name: "react",
@@ -255,30 +253,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bicepsJim,
+    source_code_link: "https://github.com/Manu-Gupta69/biceps-jim",
+    live_link: "https://biceps-jim-6p5r.vercel.app",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
