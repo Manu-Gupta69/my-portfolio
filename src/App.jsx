@@ -3,7 +3,6 @@ import {
   About,
   Contact,
   Experience,
-  StarsCanvas,
   Hero,
   Navbar,
   Tech,
